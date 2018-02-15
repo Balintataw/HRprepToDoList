@@ -25,15 +25,32 @@ a {
 
 .sect2 {
     display: flex;
+    flex-direction: column;
 }
+.subtitles {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
 .vidTitle {
+  display: flex;
   padding: 1.5rem;
   font-size: 1.5rem;
+  margin: 0 auto;
+  
+  text-align: center;
+}
+
+.video-container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .videos {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    justify-content: center;
+    align-items: center;
 }
