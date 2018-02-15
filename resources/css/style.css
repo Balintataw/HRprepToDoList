@@ -1,10 +1,36 @@
+/* universal syling */
 html {
     font-family: Helvetica, sans-serif;
     background-color: bisque;
     font-size: 18px;
 }
 
-span {
+span, .category {
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+.header {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sect2 {
+    display: flex;
+}
+.vidTitle {
+  padding: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
