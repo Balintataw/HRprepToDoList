@@ -1,0 +1,10 @@
+html {
+    font-family: Helvetica, sans-serif;
+    background-color: bisque;
+    font-size: 18px;
+}
+
+span {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
