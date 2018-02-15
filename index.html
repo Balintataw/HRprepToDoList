@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RA Prep</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Things I need to know</h1>
+        </div>
+    </header>
+    <section>
+        <div>
+            <ul>
+                <li>
+                    <input type="checkbox" name="" value=""> Test Driven Development
+                    <pre>
+        function AssertEquals(expected, assert, testName) {
+          if(expected===assert) {
+            console.log(`PASSED [${testName}]`);
+          } else {
+            console.log(`FAILED [${testName}], expected$ {expected} but got ${actual}`)
+          }
+        }
+        
+        describe('Thing you are testing', function() { 
+          var should = chai.should();
+          it('has a whatever it is supposed to have', function() { 
+            function('input').should.equal('expected'); 
+          }); 
+          it('has a prefix of 4 and a length of 19', function() { 
+            detectNetwork('4123456789012345678').should.equal('Visa'); 
+          }); 
+        });
+                    </pre>
+                </li>
+                <li>
+                    <input type="checkbox" name="" value=""> HoF's
+                    <pre>
+        <span>Array.prototype.reduce()</span>
+          array.reduce(function(accumulator, current, index) {
+            return accumulator + current
+          }, startingValue
+          );
+
+        <span>Array.prototype.forEach()</span> -- DOESNT RETURN ANYTHING/SAME AS FOR LOOP/USED FOR CHECKS
+          array.forEach(function(item, index) {
+            //do something to each item in array  
+          });
+        <span>Array.prototype.map()</span>  --CREATES A NEW ARRAY AFFECTED BY THE FUNCTION
+          var newArray = array.map(function(currentValue, index) {
+                           currentValue + 1  
+                         })
+                    </pre>
+                </li>
+                <li>
+                    <input type="checkbox" name="" value=""> Understand arguments and how to use them
+                    <a class="links" href="https://www.sitepoint.com/arguments-a-javascript-oddity/">Sitepoint article on Args</a>
+                </li><br>
+                <li>
+                    <input type="checkbox" name="" value=""> Review GitHub Workflow
+                    <a class="links" href="https://learn.makerpass.com/groups/ssp19/courses/reactorcore/course.precourse?id=workflow%2Fgit%20workflow%20overview">Link to Learn app</a>
+                </li><br>
+                <li>
+                    <input type="checkbox" name="" value=""> Review Underscore.js
+                    <a class="links" href="./resources/images/underscore.pdf">Hard to read underscore cheat sheet</a>
+                </li><br>
+                <li>
+                    <input type="checkbox" name="" value=""> Review Dev Tools debugger basics
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
